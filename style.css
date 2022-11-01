@@ -45,25 +45,25 @@ h1 {
   text-align: center;
   margin: 3rem 0;
   /* ADD YOUR CODE HERE */
-/*    -webkit-animation: divSlider;
+   -webkit-animation: divSlider;
   animation-duration: .5s;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
 
- */
+
   
   
 }
 
 /* ADD YOUR CODE HERE */
-/* @-webkit-keyframes divSlider {
+@-webkit-keyframes divSlider {
     from {
-        margin: 3rem 0;
+        h1: 3rem 0;
     }
     to {
-        margin: 2rem 0 ;
+        h1: 2rem 0 ;
     }
-} */
+}
 
 /* @keyframes heading-slide 
 from{
@@ -117,25 +117,24 @@ filter: blur(2px);
 .card {
   /* ADD YOUR CODE HERE */
   animation-name: cards-slide;
-  animation-duration: 2s;
+  animation-duration: 1s;
  
 }
 
 
 /* ADD YOUR CODE HERE */
-@keyframes cards-slide{
+/* @keyframes cards-slide{
   from {
   
-  transform: translate (0px, 10px);
+    
   }
   to{
-    transform: translate (0px, 00px);
-    
+    transition: ;
   }
 
 } */
 
-/* .tech-icon LAYOUT
+/* .tech-icon LAYOUT */
 .tech-icon {
   width: 6rem;
   display: block;
@@ -212,6 +211,4 @@ p {
 
 }
 }
-
-
 
