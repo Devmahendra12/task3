@@ -45,10 +45,9 @@ h1 {
   text-align: center;
   margin: 3rem 0;
   /* ADD YOUR CODE HERE */
-   -webkit-animation: divSlider;
-  animation-duration: .5s;
-  animation-direction: alternate-reverse;
-  animation-iteration-count: infinite;
+  /* -webkit-animation: divSlider;
+  animation-duration: 1s;
+  animation-iteration-count: 1; */
 
 
   
@@ -56,14 +55,14 @@ h1 {
 }
 
 /* ADD YOUR CODE HERE */
-@-webkit-keyframes divSlider {
+/* @-webkit-keyframes divSlider {
     from {
-        h1: 3rem 0;
+         margin: 4rem 0;
     }
     to {
-        h1: 2rem 0 ;
+      margin: 3rem 0 ;
     }
-}
+} */
 
 /* @keyframes heading-slide 
 from{
@@ -117,22 +116,22 @@ filter: blur(2px);
 .card {
   /* ADD YOUR CODE HERE */
   animation-name: cards-slide;
-  animation-duration: 1s;
+  animation-duration: 2s;
  
 }
 
 
 /* ADD YOUR CODE HERE */
-/* @keyframes cards-slide{
+@keyframes cards-slide{
   from {
-  
+  margin: 3rem 0;
     
   }
   to{
-    transition: ;
+    margin: 0 0;
   }
 
-} */
+}
 
 /* .tech-icon LAYOUT */
 .tech-icon {
